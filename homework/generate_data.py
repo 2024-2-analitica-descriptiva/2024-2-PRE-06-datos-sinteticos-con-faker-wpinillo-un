@@ -66,7 +66,7 @@ def generate_fake_timesheet(drivers, n):
     return timesheet            
             
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     
     # Generate fake data
     fake_drivers = generate_fake_drivers(1000)
